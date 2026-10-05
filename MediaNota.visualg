@@ -1,0 +1,20 @@
+algoritmo "Calcular_Media"
+
+var
+nota1, nota2, medianotas : inteiro
+
+inicio
+
+escreval("Digite a primeira nota: ")
+leia(nota1)
+escreval("", nota1)
+
+escreval("Digite a segunda nota: ")
+leia(nota2)
+escreval("", nota2)
+
+
+mediaNotas <- (nota1 + nota2)/2
+escreval("A media é: " medianotas)
+
+fimalgoritmo
